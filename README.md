@@ -9,6 +9,14 @@ Required Packages:
 - [Bedtools]
 - [bedGraphToBigWig]
 
+To install Packages using Conda, run:
+```
+bash install_dependencies.sh
+```
+If you do not have Conda installed, instructions are [Here].
+
+Note: If you would like to manually install dependencies, comment out the line `source activate circAlign` in CircAlign.sh.
+
 Input:
 1) read1 and read2 (if paired-end) fastq file (can be gzipped or not)
 2) shifting length (int, should be slightly bigger than read length)
@@ -44,3 +52,4 @@ Circular Aligner
 [bedtools]: <http://bedtools.readthedocs.io/en/latest/>
 [bedgraphtobigwig]: <http://hgdownload.soe.ucsc.edu/admin/exe/>
 [frankie james]: <http://github.com/fjames003>
+[Here]: <https://conda.io/docs/user-guide/install/index.html#regular-installation>
