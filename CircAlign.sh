@@ -96,7 +96,7 @@ fi
 
 #step 0: setting enviroment
 mkdir -p "$output"
-source /home/segil_lab/.profile_litao
+source activate circAlign
 fasta_file_name="${fasta##*/}"
 
 #step 1: circulating chrM by shifting 2x(read length) bp of chrM fasta from start to the end
